@@ -1,0 +1,31 @@
+.container
+{
+	background-color: red;
+	margin: 15px auto;
+
+}
+.container-fluid
+{
+	background-color: red;
+}
+.head
+{
+	text-align: center;
+}
+.hello
+{
+	margin: 5px 5px 100px;
+}
+.nav-item
+{
+	list-style: none;
+
+}
+.navbar-toggler{
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	background-color: transparent;
+	position: relative;
+	left: 15px
+}
