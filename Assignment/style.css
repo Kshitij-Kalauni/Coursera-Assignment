@@ -1,0 +1,101 @@
+<body>
+	{
+		background-color: brown;
+	}
+	*
+{
+	box-sizing: content-box;
+}
+    h1
+    {
+     text-align: center;
+    }
+    .Wid
+    {
+    	background-color: white;
+    	padding: 10px 10px 10px 10px;
+    	width:350px;
+    }
+    .Sid
+    {
+    	background-color: white;
+    	padding: 10px 10px 10px 10px;
+    	width:350px;
+    }
+    .Did
+    {
+    	background-color: white;
+    	padding: 10px 10px 10px 10px;
+    	width:350px;
+    }
+    .A
+    {
+    	background-color: grey;
+    	text-align:center;
+    	color: white;
+    	width: 28%;
+    	position: relative;
+    	left:280px;
+    }
+    #awesome
+	
+	{
+		font-size: 150%;
+		background-color: red;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		overflow: scroll;
+	}
+	#Boring
+	{
+		font-size: 150%;
+		background-color: green;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+		width: 100%
+		margin: 0px 0px 0px 0px;
+		overflow: scroll;
+	}
+	#Weird
+	{
+	    font-size: 150%;
+		background-color: blue;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		overflow: scroll;
+	}
+	@media(min-width:1200px)
+	{
+     .Wid
+	{
+		float:left;
+	}
+	.Sid
+	{
+		float:left;
+	}
+	.Did
+	{
+		float: left;
+	}
+	}
+	@media(min-width:991px) and (max-width: 1199px)
+	{
+     .Wid
+	{
+		float:left;
+	}
+	.Sid
+	{
+		float:left;
+	}
+	.Did
+	{
+		float:both;
+		width:800px
+	}
+	}
